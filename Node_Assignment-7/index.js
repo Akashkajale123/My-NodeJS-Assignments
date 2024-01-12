@@ -105,7 +105,7 @@ app.delete('/mario/:id', async (req, res) => {
   }
 });
 
-// Start the server----
+// Start the server
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}/`);
 });
